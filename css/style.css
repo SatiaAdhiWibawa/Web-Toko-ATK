@@ -1,0 +1,246 @@
+/* Ini adalah CSS RESET 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+}
+
+body{
+  font-family: sans-serif;
+  background: url(../images/logo1.png) no-repeat;
+  background-size: cover;
+}
+/* Ini class public yang digunakan untuk <header class="banner">*/
+
+
+.banner {
+ background-color: #11233b;
+ color: white;
+ padding: 10px 20px;
+}
+.banner nav {
+	background-image: url(../images/logoweb.jpg);
+	height: 200px;
+	background-size: cover;
+	background-position: 0 -400px;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid red;
+	border-right: 5px solid green;
+	border-left: 5px solid #00ff00;
+}
+b {
+text-align:right;
+}
+/* Ini class untuk tag <body>*/
+body {
+ width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #f0f0f0;
+ font-family: Helvetica;
+ font-size: 15px;
+}
+/* Ini class untuk tag <nav>*/
+nav {
+ background-color: #20416c;
+ padding: 5px;
+ margin-top: 1px;
+}
+/* Ini class untuk tag <li> dan <a>*/
+li a {
+ color: white;
+}
+/* Ini class untuk tag <li>*/
+li {
+ display: inline;
+ margin-left: 15px;
+ margin-right: 15px;
+ font-size: 20px;
+ font-variant: small-caps;
+ font-weight: bold;
+}
+/* Ini class untuk tag <section>*/
+section {
+ background-color: #bbbbbb;
+ margin-top: 10px;
+ padding: 5px;
+}
+/* Ini class untuk tag <article>*/
+article {
+ background-color: white;
+ margin-top: 5px;
+ padding: 10px 10px;
+}
+/* Ini class untuk tag <main>*/
+main {
+ width: 640px;
+ float: left;
+ margin-bottom: 10px;
+}
+/* Ini class untuk tag <aside>*/
+aside {
+ background-color: #bbbbbb;
+ width: 270px;
+ float: right;
+ padding: 10px;
+ margin-top: 10px;
+}
+
+
+
+
+
+/* Ini class untuk tag <footer>*/
+footer {
+ clear: both;
+ background-color: #20416c;
+ color: white;
+ margin-top: 50px;
+ padding: 5px 20px;
+}
+
+/*FORM*/
+form {
+ width:500px;
+}
+/*Skrip diatas befungsi untuk menginstruksikan browser untuk mengatur
+lebar dari form menjadi 500px*/
+.search {
+ padding:8px 15px;
+ background:rgba(50, 50, 50, 0.2);
+ border:0px solid #20416c;
+}
+
+.button {
+ position:relative;
+ padding:6px 15px;
+ left:-8px;
+ border:2px solid #20416c;
+ background-color:#20416c;
+ color:#fafafa;
+}
+
+.button:hover {
+ background-color:#fafafa;
+ color:#20416c;
+}
+/*Untuk skrip diatas berfungsi untuk mengatur warna button ketika disorot dengan mouse.*/
+/*TABLE*/
+.table {
+ font-family: sans-serif;
+ font-size: 13px;
+ color: #444;
+ border-collapse: collapse;
+ width: 40%;
+ border: 1px solid #f2f5f7;
+}
+.table tr th{
+ background: #35A9DB;
+ color: #fff;
+ font-weight: small;
+}
+.table th, td {
+ padding: 4px 17px;
+}
+.table tr:hover {
+ background-color: #f5f5f5;
+}
+.table tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+div.form1{
+ padding:10px 22px 0;
+ color: #808080;
+}
+div.form1 div.grup{
+ margin: 16px 0;
+}
+div.form1 div.grup label{
+ font-size: 13px;
+ margin-bottom: 10px;
+}
+div.form1 div.grup textarea{
+ width: 100%;
+ height: 30px;
+ padding: 0 10px;
+ background: #eeeeee;
+ border:none;
+ color: #808080;
+}
+div.form1 div.grup select{
+ width: 20%;
+ height: 30px;
+ padding: 0 10px;
+ background: #eeeeee;
+ border:none;
+ color: #808080;
+}
+div.form1 div.grup input[type="text"],
+div.form1 div.grup input[type="password"]{
+ width: 100%;
+ height: 30px;
+ padding: 0 10px;
+ background: #eeeeee;
+ border:none;
+ color: #808080;
+}
+div.form1 div.grup input[type="submit"]{
+ background: #20416c;
+ padding: 4px 16px;
+ margin: 0 auto;
+ border: 1px solid #20416c;
+ border-radius: 2px;
+ color: #fff;
+ cursor: pointer;
+}
+div.form1 div.grup input[type="submit"]:hover{
+ background-color:#fafafa;
+ color:#20416c;
+
+}
+
+/*penulis*/
+

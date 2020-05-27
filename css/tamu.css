@@ -1,0 +1,59 @@
+/*Satia Adhi*/
+body{
+  font-family: sans-serif;
+  background: url(../images/bg1.jpg) no-repeat;
+  background-size: cover;
+  font-family:tahoma; font-size:12px;
+}
+
+#container {
+	width:450px; 
+	padding:20px 40px;
+	margin:50px auto;
+	border:0px solid #555;
+	box-shadow:4px 10px 12px #000;
+	color: brown;
+}
+
+input[type="text"] { 
+	width:200px;
+}
+
+input[type="text"], textarea {
+	padding:5px;
+	margin:2px 0px;
+	border: 1px solid #777;
+}
+
+input[type="submit"], input[type="reset"] {
+	padding: 5px 20px;
+	margin:2px 0px;
+	font-weight:bold;
+	cursor:pointer; 
+}
+
+#error {
+	border:1px solid red;
+	background:#ffc0c0;
+	padding:5px; 
+}
+
+.input {
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: 6px 5px 7px #333;
+}
+
+.input:hover {
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: 1px 1px 2px #333;
+background: #FFFF99;
+}
+.input:focus {
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: 1px 1px 2px #333;
+background: #FFFF99
+}
+

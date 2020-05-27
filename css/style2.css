@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+  background: url(../images/bg.jpg);
+}
+
+a:link {
+color: black;
+text-decoration: none;
+}
+a:hover {
+color: black;
+text-decoration: underline;
+font-weight: bold;
+}
+a:focus {
+color: black;
+text-decoration: underline;
+font-weight: bold;
+}
+a:active {
+color: black;
+text-decoration: none;
+}
+a:visited {
+color: black;
+text-decoration: none;
+}
+.table {
+border: 1px solid #ccc;
+border-radius: 7px;
+background: transparent;
+background: -webkit-linear-gradient(top,#0099FF,transparent,#0099FF);
+box-shadow: -2px -2px 6px #666;
+margin-top: 13px;
+}
+.font {
+font-weight: bold;
+text-shadow: 3px 3px 6px #00CCFF;
+margin-left: 5px;
+}
